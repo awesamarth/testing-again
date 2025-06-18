@@ -1,0 +1,37 @@
+/* WalletButton.module.css */
+
+.wallet-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.wallet-button,
+.connect-btn {
+  background-color: #c0c0c0;
+  color: black;
+  border: 1px solid;
+  border-top-color: #ffffff;   /* bord haut clair */
+  border-left-color: #ffffff;  /* bord gauche clair */
+  border-bottom-color: #404040;/* bord bas foncé */
+  border-right-color: #404040; /* bord droit foncé */
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 0 #808080, inset -1px -1px 0 #000000;
+}
+
+.wallet-button:active,
+.connect-btn:active {
+  border-top-color: #404040;
+  border-left-color: #404040;
+  border-bottom-color: #ffffff;
+  border-right-color: #ffffff;
+  box-shadow: inset -1px -1px 0 #808080, inset 1px 1px 0 #000000;
+}
+
+.wallet-button:hover,
+.connect-btn:hover {
+  transform: scale(1.03);
+}

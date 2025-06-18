@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@privy-io/react-auth": "^2.14.2",
+    "@privy-io/wagmi": "^1.0.4",
+    "lucide-react": "^0.517.0",
+    "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "viem": "^2.31.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
